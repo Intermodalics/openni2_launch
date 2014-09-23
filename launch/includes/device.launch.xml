@@ -46,6 +46,8 @@
 
     <remap from="$(arg rgb)/image" to="$(arg rgb)/image_raw" />
     <remap from="$(arg depth)/image" to="$(arg depth_registered)/image_raw" />
+    <remap from="triggered/$(arg rgb)/image" to="triggered/$(arg rgb)/image_raw" />
+    <remap from="triggered/$(arg depth)/image" to="triggered/$(arg depth_registered)/image_raw" />
   </node>
 
 </launch>
