@@ -38,6 +38,10 @@
     <param name="color_depth_synchronization" value="$(arg color_depth_synchronization)" />
     <param name="auto_exposure" value="$(arg auto_exposure)" />
     <param name="auto_white_balance" value="$(arg auto_white_balance)" />
+    <param name="use_device_time" value="false" />
+    <param name="depth_time_offset" value="0.0" />
+    <param name="ir_time_offset" value="0.0" />
+    <param name="color_time_offset" value="0.0" />
 
     <remap from="ir" to="$(arg ir)" />
     <remap from="rgb" to="$(arg rgb)" />
